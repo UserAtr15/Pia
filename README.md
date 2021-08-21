@@ -3,6 +3,8 @@
 
 LARA REYNA ARTURO
 
+1554973
+
 #### Introducción:
 Un señor de la tercera edad tiene una tienda de abarrotes en el brinda el servicio de envíar sus productos por medio de otra persona que viaja en motocicleta, toma la petición por medio de una llamada y le da las indicaciones a su empleado. Esto causa un problema ya que si varias personas llaman a la vez el solo podrá contestar una, además de que puede haber error al anotar el producto o dirección del cliente.
 
@@ -45,7 +47,7 @@ Funcionalidades:
 - Tener un registro de sus ventas
 
 Base de datos:
-Se utilizara La base de datos PostgresSQL ya que es facil de configurar y trabaja con datos relacionales y esta orientado a objetos
+Se utilizara La base de datos PostgresSQL ya que es facil de configurar, trabaja con datos relacionales y esta orientado a objetos
 
 #### Diagrama UML
 ![](images/Diagrama%20UML.png)
