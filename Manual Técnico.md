@@ -80,3 +80,43 @@
 ```
 
 #### Pruebas en Postman
+- Usuarios
+	- Get
+![](images/UsuariosGet.PNG)
+	- Post
+![](images/UsuariosPost.PNG)
+	- Put
+![](images/UsuariosPut.PNG)
+	- Delete
+![](images/UsuariosDelete.PNG)
+
+- Productos
+	- Get
+![](images/ProductosGet.PNG)
+	- Post
+![](images/ProductoPost.PNG)
+	- Put
+![](images/ProductoPut.PNG)
+	- Delete
+![](images/ProductoDelete.PNG)
+
+- Categorias
+	- Get
+![](images/CategoriasGet.PNG)
+	- Post
+![](images/CategoriaPost.PNG)
+	- Put
+![](images/CategoriaPut.PNG)
+	- Delete
+![](images/CategoriaDelete.PNG)
+
+- Pedidos 
+	- Get
+![](images/PedidoGet.PNG)
+	- Post
+![](images/PedidoPost.PNG)
+	- Delete
+![](images/PedidoDelete.PNG)
+
+- Login
+![](images/Login.PNG)
