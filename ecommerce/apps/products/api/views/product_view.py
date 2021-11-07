@@ -29,8 +29,8 @@ class ProductViewSet(viewsets.ModelViewSet):
         if serializer.is_valid():
             #se guardan los datos
             serializer.save()
-            #se retorna un mensaje y un estado 201 en caso de que se crea
-            return Response({'message': 'Producto Creado'},status = status.HTTP_201_CREATED)
+            #se retorna los datos y un estado 201 en caso de que se crea
+            return Response(serializer.data,status = status.HTTP_201_CREATED)
         #se retorna un mensaje y un estado 400 en caso de haber un error
         return Response(serializer.errors, status = status.HTTP_400_BAD_REQUEST)
 

@@ -30,8 +30,8 @@ class CategoryViewSet(viewsets.GenericViewSet):
         if serializer.is_valid():
             #de ser valido, se guardara
             serializer.save()
-            #se retorna un mensaje y un estado 201 si la categoria es creada
-            return Response({'message': 'Categoria registrada'}, status = status.HTTP_201_CREATED)
+            #se retorna los datos y un estado 201 si la categoria es creada
+            return Response(serializer.data, status = status.HTTP_201_CREATED)
         #se retorna un mensaje con el error y un estado 400 si no se crea la categoria
         return Response({'error': serializer.errors}, status = status.HTTP_400_BAD_REQUEST)
 
