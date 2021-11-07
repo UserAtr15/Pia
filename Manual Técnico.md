@@ -81,42 +81,77 @@
 
 #### Pruebas en Postman
 - Usuarios
-	- Get
+ 
+
+	  Get
+
 ![](images/UsuariosGet.PNG)
-	- Post
+
+	Post
+	
 ![](images/UsuariosPost.PNG)
-	- Put
+
+	Put
+	
 ![](images/UsuariosPut.PNG)
-	- Delete
+
+	Delete
+	
 ![](images/UsuariosDelete.PNG)
 
 - Productos
-	- Get
+
+
+	  Get
+	
 ![](images/ProductosGet.PNG)
-	- Post
+
+	Post
+	
 ![](images/ProductoPost.PNG)
-	- Put
+
+	Put
+
 ![](images/ProductoPut.PNG)
-	- Delete
+
+	Delete
+
 ![](images/ProductoDelete.PNG)
 
 - Categorias
-	- Get
+
+
+	  Get
+
 ![](images/CategoriasGet.PNG)
-	- Post
+
+	 Post
+
 ![](images/CategoriaPost.PNG)
-	- Put
+
+	 Put
+
 ![](images/CategoriaPut.PNG)
-	- Delete
+
+	Delete
+
 ![](images/CategoriaDelete.PNG)
 
 - Pedidos 
-	- Get
+
+
+	  Get
+
 ![](images/PedidoGet.PNG)
-	- Post
+
+	 Post
+	 
 ![](images/PedidoPost.PNG)
-	- Delete
+
+	 Delete
+
 ![](images/PedidoDelete.PNG)
 
 - Login
+
 ![](images/Login.PNG)
