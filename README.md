@@ -19,26 +19,25 @@ Atributos:
 - Usuario
 	- Id
 	- Nombre
-	- Primer Apellido
-	- Segundo Apellido
+	- Apellido
+	- Email
 	- Contraseña
-	- Teléfono
+	- Nombre de Usuario
 - Pedido
 	- Id
-	- Id de usuario
+	- Nombre de usuario
 	- Hora del pedido
-	- Hora de entrega
+	- Productos
 	- Dirección
 - Producto
 	- Id
 	- Nombre de producto
 	- Descripción 
-	- Precio
+	- Categoria del producto
 	- Imagen
 - Categoria
 	- Id
 	- Nombre de categoria
-	- Descripción
 
 Funcionalidades:
 - Uso de login
@@ -47,7 +46,7 @@ Funcionalidades:
 - Tener un registro de sus ventas
 
 Base de datos:
-Se utilizara La base de datos PostgresSQL ya que es facil de configurar, trabaja con datos relacionales y esta orientado a objetos
+Se utilizara La base de datos Sqlite ya que es facil de configurar y trabaja con datos relacionales
 
 #### Diagrama UML
 ![](images/Diagrama%20UML.png)
