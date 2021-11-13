@@ -27,10 +27,3 @@ class Login(TokenObtainPairView):
                 }, status = status.HTTP_200_OK)
             return Response({'error': 'Usuario o contraseña incorrecto'},status = status.HTTP_400_BAD_REQUEST)
 
-class Logout(GenericAPIView):
-    def post(self, request):
-        user = User.objects.filter(id = request.data.get('user',0))
-        if user.exists():
-            RefreshToken.for_user(user.first())
-            return Response({'message': 'Sesion terminada'}, status = status.HTTP_200_OK)
-        return Response({'error':'Error'}, status=status.HTTP_400_BAD_REQUEST)
